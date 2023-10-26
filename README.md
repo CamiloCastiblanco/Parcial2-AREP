@@ -62,7 +62,7 @@ Y así se un JSON que genera el proyecto:
 
 ## Video de Funcionamiento
 Se debe entrar a la url:
-- [Video Funcionalidad]() - Servicio de Lucas 
-- [Video Funcionalidad]() - Servicio de Lucas JSON 
+- [Video Funcionalidad](https://drive.google.com/file/d/1p1ejClNdA3thVp6QqDcy3tIdMIHfJ5cx) - Servicio de Lucas 
+- [Video Funcionalidad](https://drive.google.com/file/d/1gUxkzhaYFRy5CNgbVoYUrSgmBRX_r0B-/view?pli=1) - Servicio de Lucas JSON 
 
 
