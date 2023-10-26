@@ -35,7 +35,15 @@ mvn package -U
 java -cp target/Parcial2-AREP-1.0-SNAPSHOT.jar edu.escuelaing.arep.RestService
 ```
 ## Para entrar de manera remota
-Se debe entrar a la url:
+Se debe descargar la llave que esta dentro de la ubicación del proyecto en la carpeta key, allí se debe abrir un command prompt para luego ejecutar el comando:
+```
+ssh -i "LucasServices.pem" ec2-user@ec2-3-84-123-30.compute-1.amazonaws.com
+```
+La  instancia EC2 a la que estamos conectados es a la siguiente:
+
+![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/82320cf5-cd00-4300-98bd-872aa98be1ea)
+
+Luego de esto se debe entrar a la url:
 - [LucasServiceAWS](http://ec2-3-84-123-30.compute-1.amazonaws.com:4567/index.html) - Servicio de Lucas
 
 Y se debería ver algo como esto: 
@@ -46,11 +54,15 @@ Probando:
 
 ![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/a1e3634f-4199-4143-b90a-ccb1c236c6aa)
 
-La  instancia EC2 a la que estamos conectados es a la siguiente:
+Y así se un JSON que genera el proyecto:
 
-![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/82320cf5-cd00-4300-98bd-872aa98be1ea)
+![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/45aae4c9-0044-444d-b83f-74dd9f51f4e9)
 
 
 
+## Video de Funcionamiento
+Se debe entrar a la url:
+- [Video Funcionalidad]() - Servicio de Lucas 
+- [Video Funcionalidad]() - Servicio de Lucas JSON 
 
 
