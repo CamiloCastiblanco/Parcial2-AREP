@@ -16,11 +16,11 @@ Diseñe, construya y despliegue un aplicación web para investigar la secuencia 
 0. Desde cmd clonar el repositorio
 
 ```git
-git clone https://github.com/CamiloCastiblanco/Lab4-AREP.git
+git clone https://github.com/CamiloCastiblanco/Parcial2-AREP.git
 ```
 
 
-1. Ubicarse en la carpeta AREP-TALLER04 y borraremos todas las dependencias y modulos que puedan exisitir de los binarios del proyecto.
+1. Ubicarse en la carpeta Parcial2-AREP y borraremos todas las dependencias y modulos que puedan exisitir de los binarios del proyecto.
 ```maven
 mvn clean install
 ```
@@ -32,5 +32,25 @@ mvn package -U
 
 3. Ejecutamos el proyecto
 ```maven
-java -cp target/EciSpringboot-1.0-SNAPSHOT.jar edu.escuelaing.arep.RunMyServer
+java -cp target/Parcial2-AREP-1.0-SNAPSHOT.jar edu.escuelaing.arep.RestService
 ```
+## Para entrar de manera remota
+Se debe entrar a la url:
+- [LucasServiceAWS](http://ec2-3-84-123-30.compute-1.amazonaws.com:4567/index.html) - Servicio de Lucas
+
+Y se debería ver algo como esto: 
+
+![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/c38a28eb-7ea4-42bf-968d-ccf63f070eee)
+
+Probando:
+
+![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/a1e3634f-4199-4143-b90a-ccb1c236c6aa)
+
+La  instancia EC2 a la que estamos conectados es a la siguiente:
+
+![image](https://github.com/CamiloCastiblanco/Parcial2-AREP/assets/69698380/82320cf5-cd00-4300-98bd-872aa98be1ea)
+
+
+
+
+
